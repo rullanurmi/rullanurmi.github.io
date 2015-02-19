@@ -32,9 +32,6 @@ body {
   font: 300 100%/1.625 "Merriweather" Georgia, serif;
   margin: 0 auto;
   color: #333; }
-@media screen and (max-width: 25em) {
-  body {
-    font-size: 93.75%; } }
 @media screen and (min-width: 37.5em) {
   body {
     font-size: 106.3%;
@@ -115,7 +112,7 @@ a:active, a:hover {
 @media screen and (min-width: 50em) {
   .cover--header {
     background-image: url(../img/hero--large.jpeg); } }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 62.5em) {
   .cover--header {
     background-image: url(../img/hero--largest.jpeg); } }
 
@@ -128,7 +125,7 @@ a:active, a:hover {
 @media screen and (min-width: 50em) {
   .image--transport {
     background-image: url(../img/transport--large.jpeg); } }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 62.5em) {
   .image--transport {
     background-image: url(../img/transport--largest.jpeg); } }
 
@@ -140,7 +137,7 @@ a:active, a:hover {
 @media screen and (min-width: 25em) {
   .cover--text {
     text-align: left; } }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 62.5em) {
   .cover--text {
     width: 60%; } }
 
