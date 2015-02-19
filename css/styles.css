@@ -28,8 +28,18 @@ html {
 html, body {
   height: 100%; }
 
+/* default OS fonts */
 body {
-  font: 300 100%/1.625 "Merriweather" Georgia, serif;
+  font-family: Georgia, serif; }
+
+/* fonts now loaded */
+.wf-active body {
+  font-family: "Merriweather"; }
+
+body {
+  font-weight: 300;
+  font-size: 100%;
+  line-height: 1.625;
   margin: 0 auto;
   color: #333; }
 @media screen and (min-width: 37.5em) {
