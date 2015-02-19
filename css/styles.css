@@ -26,7 +26,7 @@ body {
   body {
     font-size: 112.5%;
     line-height: 1.611111111; } }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 62.5em) {
   body {
     font-size: 125%; } }
 
@@ -56,7 +56,7 @@ h2 {
 
 h3 {
   font-size: 2.375em;
-  line-height: 1.368421052em;
+  line-height: 1.368421052;
   margin-bottom: 0.68421053em;
   color: #fff; }
 
@@ -115,13 +115,13 @@ a:hover {
   width: 80%;
   text-align: center;
   position: absolute;
-  bottom: 5%;
-  left: 10%;
-  z-index: 2; }
-@media screen and (min-width: 37.5em) {
+  bottom: 5%; }
+@media screen and (min-width: 25em) {
   .cover--text {
-    padding-left: 3em;
     text-align: left; } }
+@media screen and (min-width: 64em) {
+  .cover--text {
+    width: 60%; } }
 
 .list {
   font-size: 1em;
@@ -135,12 +135,11 @@ a:hover {
   color: #fff; }
 
 .logo {
-  width: 191px;
-  margin: auto;
-  position: absolute;
-  top: 1.5em;
-  right: 0;
-  left: 0; }
+  padding-top: 1.5em; }
+@media screen and (min-width: 25em) {
+  .logo {
+    margin-right: auto;
+    margin-left: auto; } }
 
 /**
  * Footer.
@@ -170,7 +169,7 @@ a:hover {
   width: 88%;
   padding-top: 3em;
   padding-bottom: 3em; }
-@media screen and (min-width: 64.375em) {
+@media screen and (min-width: 62.5em) {
   .wrapper {
     width: 78%;
     max-width: 62.500rem; } }
