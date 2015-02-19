@@ -5,6 +5,10 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+@-ms-viewport {
+  width: device-width; }
+@viewport {
+  width: device-width; }
 ::selection {
   background-color: #27ae60;
   color: #fff; }
@@ -14,7 +18,12 @@
   color: #fff; }
 
 html {
-  background-color: #fff; }
+  background-color: #fff;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent; }
 
 html, body {
   height: 100%; }
@@ -73,7 +82,8 @@ p, ul, img {
 
 img {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  border: 0; }
 
 a {
   color: #27ae60;
@@ -82,6 +92,9 @@ a {
 
 a:hover {
   text-decoration: underline; }
+
+a:active, a:hover {
+  outline: 0; }
 
 .cover {
   position: relative;
