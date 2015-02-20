@@ -104,16 +104,16 @@ a:active, a:hover {
 .cover--header {
   margin-bottom: 1.6em;
   min-height: 100%;
-  background-image: url(../img/hero--small.jpeg); }
+  background-image: url(../img/cover--400.jpeg); }
 @media screen and (min-width: 37.5em) {
   .cover--header {
-    background-image: url(../img/hero--medium.jpeg); } }
+    background-image: url(../img/cover--600.jpeg); } }
 @media screen and (min-width: 50em) {
   .cover--header {
-    background-image: url(../img/hero--large.jpeg); } }
+    background-image: url(../img/cover--800.jpeg); } }
 @media screen and (min-width: 62.5em) {
   .cover--header {
-    background-image: url(../img/hero--largest.jpeg); } }
+    background-image: url(../img/cover--1000.jpeg); } }
 
 .image--transport {
   background-attachment: fixed;
