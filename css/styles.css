@@ -28,14 +28,6 @@ html {
 html, body {
   height: 100%; }
 
-/* default OS fonts */
-body {
-  font-family: Georgia, serif; }
-
-/* fonts now loaded */
-.wf-active body {
-  font-family: "Merriweather"; }
-
 body {
   font-weight: 300;
   font-size: 100%;
@@ -55,7 +47,6 @@ body {
     font-size: 125%; } }
 
 h1, h2, h3 {
-  font-family: "Merriweather" Georgia, serif;
   font-weight: 900;
   margin-top: 0; }
 
